@@ -1,0 +1,33 @@
+{
+  "name": "js-api-tests",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "jest": "^30.0.4",
+    "jest-html-reporter": "^4.3.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
+    "testEnvironment": "node",
+    "reporters": [
+      "default",
+      [
+        "jest-html-reporter",
+        {
+          "pageTitle": "API Test Report"
+        }
+      ]
+    ]
+  }
+}

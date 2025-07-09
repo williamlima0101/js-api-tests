@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Test coverage
+coverage/
+
+# Test reports
+test-report.html
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
+
+# VSCode
+.vscode/
