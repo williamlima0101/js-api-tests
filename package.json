@@ -5,7 +5,8 @@
   "devDependencies": {
     "ajv": "^8.17.1",
     "jest": "^30.0.4",
-    "jest-html-reporter": "^4.3.0"
+    "jest-html-reporter": "^4.3.0",
+    "nock": "^14.0.5"
   },
   "scripts": {
     "test": "jest"
